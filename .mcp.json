@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "il-bank": {
+      "command": "docker",
+      "args": [
+        "compose",
+        "run",
+        "--rm",
+        "-i",
+        "mcp-server"
+      ],
+      "cwd": "/home/user/il-bank-mcp"
+    }
+  }
+}
